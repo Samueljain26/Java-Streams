@@ -13,8 +13,7 @@ public class ReadConsoleInput {
 
                 System.out.print("Enter your age: ");
                 String age = reader.readLine();
-
-                // Writing to file
+            // Writing to file
                 writer.write("Name: " + name + "\n");
                 writer.write("Age: " + age + "\n");
 
